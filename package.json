@@ -1,0 +1,13 @@
+{
+    "name": "typescript-fibonacci",
+    "version": "1.0.0",
+    "description": "Tính tổng các số Fibonacci",
+    "scripts": {
+        "build": "tsc -p .",
+        "start": "node dist/main.js",
+        "dev": "tsc -p . && node dist/main.js"
+    },
+    "devDependencies": {
+        "typescript": "^4.1.5"
+    }
+}
